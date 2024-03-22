@@ -1,0 +1,7 @@
+# Ingnorar el archivo .env
+.env
+
+# Ingnorar el directorio node_modules
+node_modules/
+
+
