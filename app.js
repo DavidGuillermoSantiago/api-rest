@@ -1,7 +1,7 @@
 import express from 'express';
-import productsRoutes from './src/routes/products.routes';
-import authRoutes from './src/routes/auth.routes'
-import { createRoles } from './src/libs/initialSetup';
+import productsRoutes from './src/routes/products.routes.js';
+import authRoutes from './src/routes/auth.routes.js'
+import { createRoles } from './src/libs/initialSetup.js';
 
 const app = express();
 

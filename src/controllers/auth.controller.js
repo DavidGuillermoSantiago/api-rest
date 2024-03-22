@@ -1,9 +1,9 @@
 //Importar modelo de datos
-import User from "../models/User";
+import User from "../models/User.js";
 
 import * as dotenv from "dotenv";
-import { signToken } from "../../utils";
-import Role from "../models/Role";
+import { signToken } from "../../utils.js";
+import Role from "../models/Role.js";
 
 import jwt from 'jsonwebtoken';
 

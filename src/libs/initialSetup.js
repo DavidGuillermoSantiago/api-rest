@@ -1,5 +1,5 @@
 //importar modelo de datos Role
-import Role from '../models/Role';
+import Role from '../models/Role.js';
 
 //Exportar función para crear roles
 export const createRoles = async () => {
