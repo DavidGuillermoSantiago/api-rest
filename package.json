@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "tutorial de como crear una REST API",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node build/index.js",
     "dev": "nodemon src/index.js --exec babel-node",
